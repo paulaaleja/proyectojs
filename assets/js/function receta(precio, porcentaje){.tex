@@ -1,0 +1,7 @@
+function receta(precio, porcentaje){
+    return precio + ((precio * porcentaje) /-100)
+}
+for (let index = 0; index < 3; index++) {
+    let resultado = receta(parseFloat(prompt("INGRESAR PRECIO")),parseFloat(prompt("INGRESAR %")));
+    alert(resultado);
+}
