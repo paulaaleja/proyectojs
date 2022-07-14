@@ -21,7 +21,7 @@ let montoPagar
     alert ("Ingrese un monto valido por favor!")
     break
  }
->>>>>>> 51aa2742b6d366a67186f10f4a94eccc95f3b12c
+
 
  montoPagar = montoIngresado * porcentaje [i] / 100
  alert ("Con un descuento del " + porcentaje[i] + "%, Pagas tu medicamento $" + montoPagar);
